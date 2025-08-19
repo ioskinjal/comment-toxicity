@@ -33,7 +33,3 @@ Now update GitHub with the new files:
 git add .gitignore README.md
 git commit -m "Added .gitignore and README.md"
 git push origin main
-
-
-
-    
