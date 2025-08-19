@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Virtual Environment
+venv/
+ENV/
+.venv/
+
+# Data & Models
+data/*.csv
+!data/sample.csv   # keep sample small csv if needed
+models/
+!models/.gitkeep   # keep empty models folder in git
+
+# Mac & System
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Streamlit cache
+.streamlit/
