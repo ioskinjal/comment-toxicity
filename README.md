@@ -7,7 +7,7 @@ Trains a model, predicts single comments, and supports CSV bulk predictions.
 
 ## ⚙️ Setup
 ```bash
-git clone https://github.com/your-username/comment-toxicity.git
+git clone https://github.com/ioskinjal/comment-toxicity.git
 cd comment-toxicity
 python3 -m venv venv
 source venv/bin/activate   # or venv\Scripts\activate on Windows
@@ -24,5 +24,16 @@ streamlit run app.py
 	•	Python, scikit-learn, TensorFlow/PyTorch
 	•	NLP (TF-IDF / BERT)
 	•	Streamlit
+
+	---
+
+## 🔹 Step 3: Commit & Push
+Now update GitHub with the new files:
+```bash
+git add .gitignore README.md
+git commit -m "Added .gitignore and README.md"
+git push origin main
+
+
 
     
